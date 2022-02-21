@@ -5,6 +5,7 @@ pipeline{
             steps{
                 dir("HelloMaven") {
                     sh "pwd"
+                    sh 'echo hello'
                     sh 'mvn clean install'
                                 }
 
